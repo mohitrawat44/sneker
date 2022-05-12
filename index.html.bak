@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+    <!-- <link rel="stylesheet" type="text/css" href="demo.css" media="all" /> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+	<!-- jQuery -->
+	<script type="text/javascript" src="jquery.min.js.txt"></script>
+	<!-- FlexSlider -->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+   
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <center><img class="photo" src="file:///C:/New%20folder/Adidas/logoair.jpg" alt="error"></center>
+        <div class="want">
+            <input type="search" placeholder="search">
+            <button >search</button>
+        </div>
+    </header>
+<hr>
+    <!-- silder part in page -->
+
+    <div class="slider_container">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                   <img src="./images/slider/sli.png" alt="error" title="">
+                    <div class="flex-caption">
+                        <div class="caption_title_line">
+                            <h2>Sneakers Shop</h2>
+                            <p>What are you looking for?</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/slider/slide1.png" alt="" title="" wi >
+                    <div class="flex-caption">
+                        <div class="caption_title_line">
+                            <h2>Sneakers Shop</h2>
+                            <p>What are you looking for?</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                   <img src="./images/slider/slide2.png" alt="" title="" />
+                    <div class="flex-caption">
+                        <div class="caption_title_line">
+                            <h2>Sneakers Shop</h2>
+                            <p>What are you looking for?</p>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="write">
+    <h1>Buying For Shoes</h1>    
+    </div>
+<div class="flex-container">
+    <div <a href=""> <img  src="1.png" alt="error" width="1100px" height="700px" ></a><p>Adidas<br></p>
+<p>Rs-1599(15%off)</p>
+</div>
+    <div <a href=""> <img  src="2.png" alt="error" width="1100px" height="700px"></a><p>Adidas <br></p>
+<p>Rs-1299(25%off)</p></div>
+    <div <a href=""> <img  src="3.jpg" alt="error" width="1100px" height="700px" ></a>
+        <p>Nike Air</p><p>Rs-4599(17%off)</p></div>
+    <div <a href=""> <img  src="4.jpg" alt="error"width="1100px" height="700px" ></a><p>Woodland<br><p><p>Rs-2900(12%off)</p></div>
+    <div <a href=""> <img  src="5.jpg" alt="error"width="1100px" height="700px" ></a><p>Sneakers Air Jordan<br><p>Rs-5599(34%off)</p></div>
+    <div <a href=""> <img  src="6.jpg" alt="error" width="1100px" height="700px"></a><p>Kids Footwear</p><p>Rs-1566(29%off)</p></div>
+    <div <a href=""> <img  src="7.jpg" alt="error"width=1100px" height="700px" ></a><p>Men brown leather casual boots </p>
+	
+	<p>Rs-1888 (73% off)	
+	</p>
+	</div>
+    <div <a href=""> <img  src="8.jpg" alt="error"width="1100px" height="700px" ></a><p>Red tape <br>kids shoes in different colour<p>1890(7%off)</p></p></div>
+    <div <a href=""> <img  src="9.jpg" alt="error"width="1100px" height="700px" ></a><p>Men black sandal<br><p>Rs-599(50%off)</p></div>
+    <div <a href=""> <img  src="10.jpg" alt="error"width="1100px" height="700px" ></a><p>Bata<br>men leather shoe<p>Rs-3499(19%)</p></p></div>
+    <div <a href=""> <img  src="file:///C:/Users/ASUS/Documents/shiva/11.jpg" alt="error"width="1100px" height="700px" ></a><p>Nike <br><p>Rs-1999(12%off)</P></p></div>
+    <div <a href=""> <img  src="file:///C:/New%20folder/images/pic1.jpg" alt="error"width="1100px" height="700px" ></a><p>Nike airmax<p>Rs-3499(34%off)</p></p></div>
+
+
+    
+
+       
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();
+$(window).load(function() {
+$('.flexslider').flexslider({
+      animation: "fade"
+});
+
+$(function() {
+    $('.show_menu').click(function(){
+            $('.menu').fadeIn();
+            $('.show_menu').fadeOut();
+            $('.hide_menu').fadeIn();
+    });
+    $('.hide_menu').click(function(){
+            $('.menu').fadeOut();
+            $('.show_menu').fadeIn();
+            $('.hide_menu').fadeOut();
+    });
+});
+});
+</script>
+</body>
+
+</html>
